@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Calcolatrice</h1>
+        <div>
+            <p></p>
+        </div>
+        <table>
+            <tr>
+                <td><button type="button" onclick="agg_7()">7</button></td>
+                <td><button type="button" onclick="agg_8()">8</button></td>
+                <td><button type="button" onclick="agg_9()">9</button></td>
+                <td><button type="button" onclick="dividi()">/</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="agg_4()">4</button></td>
+                <td><button type="button" onclick="agg_5()">5</button></td>
+                <td><button type="button" onclick="agg_6()">6</button></td>
+                <td><button type="button" onclick="moltiplica()">*</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="agg_1()">1</button></td>
+                <td><button type="button" onclick="agg_2()">2</button></td>
+                <td><button type="button" onclick="agg_3()">3</button></td>
+                <td><button type="button" onclick="sottrai()">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="cancella()">C</button></td>
+                <td><button type="button" onclick="agg_0()">0</button></td>
+                <td><button type="button" onclick="agg_punto()">.</button></td>
+                <td><button type="button" onclick="somma()">+</button></td>
+            </tr>
+        </table>
+        <div>
+            <button type="button" onclick="calcola()">=</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

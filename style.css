@@ -1,0 +1,89 @@
+
+body{
+    background-color: #2A9D8F;
+    color: #264653;
+    font-size: 1.8rem;
+}
+
+button{
+    background: linear-gradient(0deg, rgb(36, 5, 0) 0%, rgba(233,196,106,1) 20%, rgba(231,111,81,1) 87%);
+    border: none;
+    border-radius: 0.6rem;
+    color: #264653;
+    font-size: 1.2rem;
+}
+
+button:active{
+    background: linear-gradient(0deg, rgb(36, 5, 0) 0%, rgba(233,196,106,1) 12%, rgba(231,111,81,1) 75%);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 12rem auto;
+    background-color: #F4A261;
+    padding: 1rem 1.2rem;
+    border: 0.2rem solid #E76F51;
+    border-radius: 0.8rem;
+    box-shadow: 15px 15px 5px #264653;
+    max-width: 20rem;
+}
+
+h1{
+    text-align: center;
+}
+
+
+section div{
+    width: 100%;
+    height: 6vh;
+    box-sizing: border-box;
+}
+
+section div p{
+    margin: 0;
+    height: fit-content;
+}
+
+section div button{
+    border: 0.2rem solid #E76F51;
+    width: 100%;
+    height: 100%;
+}
+
+section div:first-of-type{
+    height: 6vh;
+    border-radius: 0.8rem;
+    border: 0.2rem solid #E76F51;
+    background-color: #E9C46A;
+    display: flex;
+    align-items: center;
+}
+
+section div:first-of-type p{
+    padding: 0 0.5rem;
+    overflow-x: hidden;
+}
+
+section table{
+    margin-top: 4rem;
+}
+
+section table tr{
+    margin: 0.2rem;
+    display: flex;
+    flex: 1 1 0;
+}
+
+section table tr td{
+    margin: 0.2rem;
+    flex: 1 1 0;
+    width: 100%;
+    height: 6vh;
+}
+
+section table tr td button{
+    border: 0.2rem solid #E76F51;
+    width: 100%;
+    height: 100%;
+}
